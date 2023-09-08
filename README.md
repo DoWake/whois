@@ -6,6 +6,7 @@ PHP 实现域名 WHOIS 协议，可以通过 fsockopen 函数与域名 whois 服
 
 域名 whois 服务器地址可以在[IANA](https://www.iana.org/whois?q=cn)获取。
 一般情况下，不同的域名后缀 whois 服务器地址不同；若要实现查询不同后缀的域名，可以编写程序批量获取 whois 服务器地址。
+本项目提供的 WHOIS 服务器地址的获取时间是 2023-09-08，在未来可能部分地址会失效。
 
 查询例子
 
